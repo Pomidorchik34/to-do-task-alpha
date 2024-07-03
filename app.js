@@ -6,7 +6,7 @@ const form = document.getElementById("form");
 let i = 1;
 function validate() {
   if (input.value == "") {
-    alert("error");
+    alert("task can't be without name");
     return false;
   }
   return true;
